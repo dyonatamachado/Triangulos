@@ -8,6 +8,7 @@ namespace Triangulos
         {
             string[] s = Console.ReadLine().Split(' ');
             Array.Sort(s);
+            Array.Reverse(s);
             double a = double.Parse(s[0]);
             double b = double.Parse(s[1]);
             double c = double.Parse(s[2]);
