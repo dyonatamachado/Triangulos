@@ -106,7 +106,7 @@ namespace Triangulos
                 }
             }
 
-            if (ladoa >= (b + c))
+            if (ladoa >= (ladob + ladoc))
                 Console.WriteLine("NAO FORMA TRIANGULO");
             else if ((ladoa*ladoa) == (ladob*ladob) + (ladoc*ladoc))
                 Console.WriteLine("TRIANGULO RETANGULO");
